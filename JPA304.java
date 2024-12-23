@@ -23,7 +23,7 @@ public class JPA304 {
         }
         double average = 0;
         if (count > 0){
-            average = sum / count;  
+            average = (double)sum / count;  
         }   
         else{
             average = 0;
